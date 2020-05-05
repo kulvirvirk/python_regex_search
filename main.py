@@ -10,3 +10,5 @@ sentence = 'The United States of America (USA), commonly known as the United Sta
 import re
 
 # 3. use search() to find a specific pattern in sentance 
+search_regax = re.search(r'is', sentence)
+
