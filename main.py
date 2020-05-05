@@ -11,6 +11,9 @@ import re
 
 # 3. use search() to find a specific pattern in sentance 
 search_regax = re.search(r'is', sentence)
+# bottom text should print out False, bcz above 'sentance' doesn't have xxxx in it
+# search_regax = re.search(r'xxxx', sentence)
+
 
 # 4. print the regax match
 # check if 'sentence' contains the pattern described by RE argument
